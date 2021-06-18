@@ -1,0 +1,19 @@
+.hero {
+    grid-column: content-start / content-end;
+
+    padding: 15rem 0rem;
+    transition: all .5s;
+}
+
+.other-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & h2 {
+        color: #fff;
+        font-size: 5.5rem;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: bold;
+    }
+}

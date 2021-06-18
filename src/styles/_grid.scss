@@ -1,0 +1,7 @@
+.container {
+    display: grid;
+    grid-template-columns: [page-start] minmax(10rem, 25rem) [content-start] 1fr [content-end] minmax(10rem, 25rem) [page-end];
+
+    position: relative;
+    z-index: 2;
+}

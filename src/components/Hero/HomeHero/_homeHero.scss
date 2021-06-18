@@ -1,0 +1,30 @@
+.homeHero {
+    display: flex;
+    
+    &__content {
+        flex-basis: 0;
+        flex-grow: 1;
+        font-size: 1.6rem;
+        color: #fff;
+
+        & h1 {
+            font-size: 5.5rem;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            line-height: 2;
+            font-weight: bold;
+        }
+
+        & p {
+            margin-bottom: 4rem;
+            letter-spacing: 2px;
+            line-height: 1.5;
+            font-weight: normal;
+        }
+    }
+    &__design {
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+}

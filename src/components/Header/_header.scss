@@ -1,0 +1,49 @@
+.header {
+    grid-column: content-start / content-end;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 0;
+
+    &__logo {
+        color: #fff;
+        font-size: 2.5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+        
+        &--X {
+            color: $color-primary;            
+        }
+    }
+
+    &__nav-item {
+        &:link, &:visited {
+            color: #fff;
+            font-size: 1.6rem;
+            text-decoration: none;
+            transition: all .2s ease-in-out;
+            
+            &:not(:last-child) {
+                margin-right: 1.5rem;
+            }
+
+            &:not(:first-child) {
+                margin-left: 1.5rem;
+            }
+
+
+        }
+        
+        &:hover {
+            color: $color-primary;
+        }
+
+        &--active {
+            color: $color-primary !important;
+        }
+    }
+}
